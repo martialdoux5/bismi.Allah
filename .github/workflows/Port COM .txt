@@ -1,0 +1,119 @@
+2 meilleures
+solutions pour l'utilisation de ports COM sur Windows 10
+Olga Weis Olga Weis Mar 27, 2020
+
+Il n'est pas rare que les utilisateurs de Windows 10 se plaignent de l'absence de ports COM dans le Gestionnaire de périphériques de leur ordinateur. Dans cet article, nous allons vous expliquer comment ajouter des ports COM virtuels sur Windows 10 en utilisant une méthode intégrée au système ou une solution dédiée, Virtual Serial Port Driver. Lisez ce qui suit pour découvrir comment arriver à vos fins de la manière la plus simple et rapide possible.
+
+Sommaire
+
+Problèmes de ports COM sur Windows 10
+Application dédiée : pilote de port COM virtuel pour Windows 10
+► Comment créer des ports COM virtuels
+Version pro de Virtual Serial Port Driver
+Windows 10 - création de ports COM virtuels. La méthode intégrée
+Comment trouver un numéro de port COM sur Windows 10
+Ports COM manquants dans le Gestionnaire de périphériques
+Problèmes de ports COM sur Windows 10
+
+En tant qu'utilisateur de Windows 10, vous pourrez rencontrer des problèmes pour trouver des ports COM virtuels dans le Gestionnaire de périphériques de votre ordinateur, les ports RS232 pouvant tout simplement être absents du système. Ce problème survient après l'installation d'une mise à jour de Windows 10, qui empêche les pilotes de ports COM virtuels d'être chargés par défaut pour certains types de périphériques.
+
+Application dédiée : pilote de port COM virtuel pour Windows 10
+
+Si aucun port COM ou LPT ne s'affiche dans le Gestionnaire de périphériques de votre système Windows 10, vous pouvez installer une application dédiée, Virtual COM Port Driver, et régler ce problème une bonne fois pour toutes. Ce logiciel est conçu pour créer un nombre illimité de paires de ports COM virtuels capables de communiquer entre eux avec une connexion null-modem virtuelle.
+
+Créer des ports COM sur Windows 10
+Toutes les interfaces série virtuelles créées à l'aide de Virtual Serial Port Driver se comportent exactement de la même manière que de véritables ports série. Vous n'aurez par conséquent aucun problème à les trouver et à y accéder dans le Gestionnaire de périphériques de votre ordinateur.
+VSPD logo
+Virtual Serial Port Driver
+Virtual Serial Port Driver
+ 5 Classement basé sur 86+ utilisateurs, Revue(97)
+ 14-jours d’essai entièrement fonctionnel
+Virtual Serial Port Driver
+Ce logiciel propose également un grand nombre d'options configurables pouvant s'avérer particulièrement utiles pour tester des applications et du matériel série.
+
+Par exemple, l'utilitaire offre la possibilité à deux applications de partager des données sur des ports COM virtuels de manière à ce que toutes les informations envoyées par l'une d'elle apparaisse instantanément dans l'autre (connectée à l'autre extrémité de la paire de ports série virtuels).
+
+Comment créer des ports COM virtuels
+
+Voici comment créer facilement des ports COM virtuels sur un PC Windows 10 à l'aide de Virtual Serial Port Driver :
+
+Téléchargez le logiciel et installez-le sur votre ordinateur.
+Exécutez Virtual Serial Port Driver et rendez-vous sur l'onglet “Gérer les ports”, où vous pourrez définir manuellement des noms de ports personnalisés ou sélectionner des ports existants dans la liste déroulante.
+Cliquez ensuite sur le bouton “Ajouter la paire”. C'est tout ce que vous avez à faire ! Les ports COM virtuels apparaîtront alors dans
+l'Explorateur de ports série et le Gestionnaire de périphériques de votre système.
+Pour supprimer une paire de ports, sélectionnez-la dans l'Explorateur de ports série, ouvrez l'onglet “Gérer les ports” et cliquez sur “Supprimer la paire”.
+
+Voyons à présent en quoi le logiciel COM Port Driver peut s'avérer très utile sur Windows 10. Vous pouvez utiliser cette application dans de nombreux cas, parmi lesquels :
+
+Tester et déboguer des applications série fonctionnant avec des connexions null-modem ;
+Tester et déboguer des émulateurs de port COM virtuels tels que des GPS, des fax, etc. ;
+Tester et déboguer des micrologiciels ou des pilotes de périphériques situés à distance de votre ordinateur de développement ;
+Tester et déboguer des applications pour collecter les données de mise en mémoire/proxy transférées sur le réseau, etc.
+Virtual COM Port Driver
+Essayer Virtual COM Port Driver
+Période d'essai de 14 jours gratuits
+Version pro de Virtual Serial Port Driver
+
+Pour ceux d'entre vous qui êtes à la recherche d'un moyen simple de créer non seulement des paires de ports COM virtuels mais également des ensembles de ports dont les paramètres peuvent être personnalisés, nos développeurs vous proposent Virtual Serial Port Driver PRO. Cette version du logiciel est conçue pour une utilisation professionnelle, pour les développeurs et testeurs de logiciels et de matériel série.
+
+Cet utilitaire regroupe un ensemble de fonctionnalités avancées, telles que :
+
+Le scindage et le regroupement de flux de données série.
+Vous pouvez facilement scinder un port RS232 en plusieurs ports COM virtuels qui émuleront le comportement du port physique. Vous avez également la possibilité de regrouper plusieurs flux de données provenant de ports physiques en un seul et même port virtuel qui sera redirigé vers l'application ou le périphérique requis.
+
+Création d'ensembles de ports COM physiques et virtuels.
+Virtual Serial Port Driver Pro permet de créer des ensembles complexes de ports au sein desquels des ports série physiques et virtuels peuvent échanger simultanément les données entrantes avec tous les autres ports contenus dans cet ensemble.
+
+Interrupteur de port automatique
+À chaque fois que votre application doit se connecter à un port série, l'interrupteur lui attribuera un port COM disponible. Il vous suffit pour cela de créer un ensemble de ports COM virtuels qui émuleront le comportement d'un port physique. En communiquant avec l'un des ports virtuels, votre application communiquera en fait toujours avec la même interface physique.
+
+Des articles associés pourraient vous intéresser 
+Articles Liés
+Tout ce que vous devez savoir pour créer un port COM virtuel
+Meilleures solutions logicielles de port série virtuel
+RS232/RS485 - tout ce que vous devez savoir sur les protocoles série
+Windows 10 - création de ports COM virtuels. La méthode intégrée
+
+Si vous ne souhaitez pas utiliser d'application dédiée, vous pouvez essayer le correctif proposé par Windows 10 :
+
+Rendez-vous dans le Gestionnaire de périphériques et entrez “Gestionnaire de périphériques” en bas à gauche de l'écran. (Voir ci-dessous)Gestionnaire de périphériques
+Trouvez les paramètres du convertisseur USB en série.
+
+Connectez un périphérique USB à votre PC. Dans la liste du Gestionnaire de périphériques, cliquez sur la catégorie “Contrôleurs de bus USB” et faites un clic droit sur “Convertisseur USB Série”. Ouvrez les “Propriétés”.Convertisseur USB Série
+Activez le chargement du pilote VCP
+
+Dans les “Propriétés” du périphérique, rendez-vous sur l'onglet “Avancé” et vérifiez que l'option “Charger VCP” est activée, puis cliquez sur OK.Charger VCP
+Reconnectez votre périphérique
+
+Retirez votre périphérique USB puis connectez-le de nouveau à votre PC. Votre système d'exploitation devrait à présent le reconnaître, et Virtual COM Port Driver devrait être chargé.
+FAQ
+Comment trouver un numéro de port COM sur Windows 10 ?
+Parmi différents problèmes, celui consistant à “trouver un numéro de port COM sur Windows 10” en utilisant un port série peut s'avérer relativement compliqué à résoudre.
+
+Pour pouvoir fonctionner, certains périphériques série doivent utiliser des numéros de ports COM spécifiques. Il est par conséquent important de connaître le numéro du port auquel vous allez connecter votre matériel.
+
+Il vous faut pour cela vous rendre dans le Gestionnaire de périphériques pour modifier le numéro du port COM.
+
+Procédez comme suit :
+
+Ouvrez le Gestionnaire de périphériques en appuyant sur les touches “Windows Key + R”
+Entrez “devmgmt.msc” dans la barre de recherche, puis appuyez sur Entrée
+Cliquez sur la catégorie Ports COM et LPT pour afficher son contenu
+Faites un clic droit sur “Port COM” et sélectionnez “Propriétés”
+Rendez-vous sur l'onglet “Paramètres du port”
+Cliquez sur “Avancé”
+Modifiez le numéro du port COM si nécessaire
+
+Remarque : Un seul port série peut porter un numéro de port COM donné
+
+
+Redémarrez l'ordinateur pour que les modifications soient prises en compte
+Remarque : Vous devrez redémarrer votre ordinateur même si vous avez redonné au port COM son numéro d'origine.
+
+Ports COM manquants dans le Gestionnaire de périphériques
+virtual serial port serial port communication
+Eltima Software / Virtual COM Port / Windows 10 COM port issues
+logo Virtual Serial Port Driver
+#1 au Logiciel port série
+Virtual Serial Port Driver
+Émulez un port série physique en créant des paires de ports COM virtuels

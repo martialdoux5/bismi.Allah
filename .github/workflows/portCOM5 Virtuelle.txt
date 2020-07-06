@@ -1,0 +1,19 @@
+Il vous faut pour cela vous rendre dans le Gestionnaire de périphériques pour modifier le numéro du port COM.
+
+Procédez comme suit :
+
+Ouvrez le Gestionnaire de périphériques en appuyant sur les touches “Windows Key + R”
+Entrez “devmgmt.msc” dans la barre de recherche, puis appuyez sur Entrée
+Cliquez sur la catégorie Ports COM et LPT pour afficher son contenu
+Faites un clic droit sur “Port COM” et sélectionnez “Propriétés”
+Rendez-vous sur l'onglet “Paramètres du port”
+Cliquez sur “Avancé”
+Modifiez le numéro du port COM si nécessaire
+
+Remarque : Un seul port série peut porter un numéro de port COM donné
+
+
+Redémarrez l'ordinateur pour que les modifications soient prises en compte
+Remarque : Vous devrez redémarrer votre ordinateur même si vous avez redonné au port COM son numéro d'origine.
+
+Ports COM manquants dans le Gestionnaire de périphériques
